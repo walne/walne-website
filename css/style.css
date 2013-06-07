@@ -1,0 +1,84 @@
+nav {
+	display: none;
+}
+
+h1 {
+	font-family: "uppercut-angle", sans-serif;
+}
+
+p {
+	font-family: "ff-nuvo-web-pro", sans-serif;
+}
+
+ul {
+	font-family: "ff-nuvo-web-pro", sans-serif;
+}
+
+#profile-box {
+	background: rgba(0, 0, 0, 0.670588);
+	padding: 1em;
+	min-width: 320px;
+	max-width: 700px;
+	max-height: 800px;
+	min-height: 480px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	overflow: auto;
+}
+
+body {
+	color: #FFF;
+}
+
+a:link {
+	color: red;
+	text-decoration:none;
+}
+
+a:visited {
+	color: red;
+	text-decoration:none;
+}
+
+#social-menu a:hover {
+	color: white;;
+}
+
+
+#social-menu {
+list-style-type: none;
+padding: 0px 0px 0px 15px;
+margin: 0px;
+}
+
+#social-menu .fb {
+background: url('../img/glyphicons_410_facebook.png') no-repeat scroll top left;
+background-position: 0px 0px; 
+width: 30px;
+height: 30px;
+padding-left: 40px
+}
+
+#social-menu .upper-class-twit {
+background: url('../img/glyphicons_411_twitter.png') no-repeat scroll top left;
+background-position: 0px 0px; 
+width: 30px;
+height: 30px;
+padding-left: 40px
+}
+
+#social-menu .ln {
+background: url('../img/glyphicons_397_linked_in.png') no-repeat scroll top left;
+background-position: 0px 0px; 
+width: 30px;
+height: 30px;
+padding-left: 40px
+}
+
+#social-menu .gh {
+background: url('../img/glyphicons_401_github.png') no-repeat scroll top left;
+background-position: 0px 0px; 
+width: 30px;
+height: 30px;
+padding-left: 40px
+}
