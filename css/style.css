@@ -20,7 +20,7 @@ ul {
 	min-width: 320px;
 	max-width: 600px;
 	max-height: 900px;
-	min-height: 500px;
+	min-height: 600px;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	overflow: auto;
@@ -40,6 +40,11 @@ a:visited {
 	text-decoration:none;
 }
 
+
+a:hover {
+	color: white;;
+}
+
 hr {
 	background-color: #999;
 	border-top: 1px solid #000;
@@ -48,15 +53,21 @@ hr {
 	opacity: .15;
 }
 
-a:hover {
-	color: white;;
+.contact {
+	background-color: #666;
+	padding: 15px;
+	margin: 0px 0px 100px 200px;
+	text-align: center;
+	border-radius: 5px;
+	color: #FFF;
+	display: none;
 }
-
 
 #social-menu {
 list-style-type: none;
 padding: 0px 0px 0px 15px;
 margin: 0px;
+float: top;
 }
 
 #social-menu .fb {
