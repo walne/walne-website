@@ -7,7 +7,7 @@ h1 {
 }
 
 p {
-	font-family: "ff-nuvo-web-pro", sans-serif;
+	font: 12px/2 font-family: "ff-nuvo-web-pro", sans-serif; margin: 0 0 30px 0; text-indent: 40px;
 }
 
 ul {
@@ -18,9 +18,9 @@ ul {
 	background: rgba(0, 0, 0, 0.670588);
 	padding: 1em;
 	min-width: 320px;
-	max-width: 700px;
-	max-height: 800px;
-	min-height: 480px;
+	max-width: 600px;
+	max-height: 900px;
+	min-height: 500px;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	overflow: auto;
@@ -40,7 +40,15 @@ a:visited {
 	text-decoration:none;
 }
 
-#social-menu a:hover {
+hr {
+	background-color: #999;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #fff;
+	height: 0;
+	opacity: .15;
+}
+
+a:hover {
 	color: white;;
 }
 
