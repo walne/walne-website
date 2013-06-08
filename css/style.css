@@ -4,15 +4,24 @@ nav {
 
 h1 {
 	font-family: "uppercut-angle", sans-serif;
+	font: 36pt;
 }
 
 p {
 	font: 12px/2 font-family: "ff-nuvo-web-pro", sans-serif; margin: 0 0 30px 0; text-indent: 40px;
+	padding-left: 2.75em;
+	text-indent: 0em;
 }
 
 ul {
 	font-family: "ff-nuvo-web-pro", sans-serif;
 }
+
+body {
+    font-size: 0.875em;
+    line-height: 1.4;
+}
+
 
 #profile-box {
 	background: rgba(0, 0, 0, 0.670588);
@@ -78,12 +87,28 @@ height: 30px;
 padding-left: 40px
 }
 
+#social-menu .fb:hover {
+	background: url('../img/facebook_color.png') no-repeat scroll top left ;
+	background-position: 0px 0px; 
+	width: 30px;
+	height: 30px;
+	padding-left: 40px
+}
+
 #social-menu .upper-class-twit {
 background: url('../img/glyphicons_411_twitter.png') no-repeat scroll top left;
 background-position: 0px 0px; 
 width: 30px;
 height: 30px;
 padding-left: 40px
+}
+
+#social-menu .upper-class-twit:hover {
+	background: url('../img/twitter-color.png') no-repeat scroll top left;
+	background-position: 0px 0px; 
+	width: 30px;
+	height: 30px;
+	padding-left: 40px
 }
 
 #social-menu .ln {
@@ -94,6 +119,15 @@ height: 30px;
 padding-left: 40px
 }
 
+#social-menu .ln:hover {
+	background: url('../img/linkedin-color.png')  no-repeat scroll top left;
+	background-position: 0px 0px; 
+	width: 30px;
+	height: 30px;
+	padding-left: 40px
+}
+
+
 #social-menu .gh {
 background: url('../img/glyphicons_401_github.png') no-repeat scroll top left;
 background-position: 0px 0px; 
@@ -101,3 +135,12 @@ width: 30px;
 height: 30px;
 padding-left: 40px
 }
+
+#social-menu .gh:hover {
+	background: url('../img/github-color.png') no-repeat scroll top left;
+	background-position: 0px 0px; 
+	width: 30px;
+	height: 30px;
+	padding-left: 40px
+}
+
